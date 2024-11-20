@@ -4,11 +4,18 @@ transformers
 /build
 /run
 /model
+/third_party/ffmpeg
+/third_party/cutlass
 
 __pycache__
 *.model
 *.bin
+*.1
+*.2
 *.egg-info
 *.so
-bindings/python/build
-bindings/python/dist
+*.dll
+*.llmpkg
+/tools/*.config
+python/build
+python/dist
